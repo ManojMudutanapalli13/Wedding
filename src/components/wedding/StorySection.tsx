@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Play } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
-import gallery2 from "@/assets/gallery-8.jfif";
+import AR3 from "@/assets/AR3.jpeg";
+import AR_Inv from "@/assets/AR_Inv.mp4";
 
 const StorySection = () => {
   const [play, setPlay] = useState(false);
@@ -23,7 +24,7 @@ const StorySection = () => {
               className="w-full h-full group relative"
             >
               <img
-                src={gallery2}
+                src={AR3}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
 
@@ -37,7 +38,8 @@ const StorySection = () => {
           ) : (
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/RzyuP-DfyPc?autoplay=1&modestbranding=1&rel=0"
+              src={AR_Inv}
+
               title="Wedding Video"
               allow="autoplay; encrypted-media"
               allowFullScreen

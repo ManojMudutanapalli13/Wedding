@@ -102,8 +102,13 @@ import { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import gallery1 from "@/assets/gallery-1.jfif";
+import AR1 from "@/assets/AR1.jpeg";
+import AR2 from "@/assets/AR2.jpeg";
+// import AR3 from "@/assets/AR3.jpeg";
+import AR4 from "@/assets/AR4.jpeg";
+import AR5 from "@/assets/AR5.jpeg";
 
-const images = [gallery1];
+const images = [AR1,AR2,AR4,AR5];
 const captions = ["Hand in hand"];
 
 const GallerySection = () => {

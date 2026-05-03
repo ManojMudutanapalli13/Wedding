@@ -2,13 +2,13 @@
 export const weddingConfig = {
   // 💍 Couple Details
   couple: {
-    groomName: "Sri Harika",
-    brideName: "SaiKiran",
+    groomName: "Anjani",
+    brideName: "Rahul",
   },
   // 📅 Wedding Date & Location
-  date: new Date("2026-04-29T10:00:00"),
-  displayDate: "Wednesday, 29th April 2026",
-  city: "Godavarikhani,Telangana",
+  date: new Date("2026-05-10T10:00:00"),
+  displayDate: "Saturday, 10th May 2026",
+  city: "Jayashankar Bhupalpalli",
   // 📅 Calendar Event
   calendar: {
     startDateTime: "2020215T100000",
@@ -22,31 +22,67 @@ export const weddingConfig = {
   // 💒 Events
   events: [
     {
-      title: "Haldi ",
-      emoji: "🌼",
+      title: "Pelli Kuthuru",
+      emoji: "💅🏽",
       venue: "Home",
-      address: "10-13, Rajeev Swagruha, Kundapalli, Ramagundam",
-      time: "4:00 PM – 10:00 PM",
-      date: "27-April-2026",
-      mapUrl: "https://maps.app.goo.gl/KUdsVCXKy4Fup6kP6",
+      address: "Qr. No. T2-586, Satyanarayana Temple Lane, Thilaknagar Down, Godavarikhani, Dist. Peddapalli.",
+      time: "11:00 AM",
+      date: "07-May-2026",
+      mapUrl: "https://maps.app.goo.gl/6wS3AvJeMupV9aKV8",
     },
     {
-      title: "Palaporaka & Kurallu ",
+      title: "Sangeeth",
+      emoji: "💃🏼",
+      venue: "Home",
+      address: "Qr. No. T2-586, Satyanarayana Temple Lane, Thilaknagar Down, Godavarikhani, Dist. Peddapalli.",
+      time: "06:00 PM",
+      date: "07-May-2026",
+      mapUrl: "https://maps.app.goo.gl/6wS3AvJeMupV9aKV8",
+    },
+    {
+      title: "Palaporaka",
       emoji: "🌿",
       venue: "Home",
-      address: "10-13, Rajeev Swagruha, Kundapalli, Ramagundam",
-      time: "6:00 PM – 10:00 PM",
-      date: "28-April-2026",
-      mapUrl: "https://maps.app.goo.gl/KUdsVCXKy4Fup6kP6",
+      address: "Qr. No. T2-586, Satyanarayana Temple Lane, Thilaknagar Down, Godavarikhani, Dist. Peddapalli.",
+      time: "9:00 AM",
+      date: "08-May-2026",
+      mapUrl: "https://maps.app.goo.gl/6wS3AvJeMupV9aKV8",
+    },
+    {
+      title: "Haldi",
+      emoji: "🌼",
+      venue: "Home",
+      address: "Qr. No. T2-586, Satyanarayana Temple Lane, Thilaknagar Down, Godavarikhani, Dist. Peddapalli.",
+      time: "11:00 AM",
+      date: "08-May-2026",
+      mapUrl: "https://maps.app.goo.gl/6wS3AvJeMupV9aKV8",
+    },
+    {
+      title: "Kurallu",
+      emoji: "🌿",
+      venue: "Home",
+      address: "Qr. No. T2-586, Satyanarayana Temple Lane, Thilaknagar Down, Godavarikhani, Dist. Peddapalli.",
+      time: "5:00 PM",
+      date: "08-May-2026",
+      mapUrl: "https://maps.app.goo.gl/6wS3AvJeMupV9aKV8",
     },
     {
       title: "Wedding Ceremony ",
       emoji: "💑",
-      venue: "R.R. Gardens",
-      address: "Beside Alekhya Theatre, FCI Road, NTPC, Jyothinagar - 505215",
-      time: "10:00 AM – 3:00 PM",
-      date: "29-April-2026",
-      mapUrl: "https://maps.app.goo.gl/JbqPmNopymt5NWdE7",
+      venue: "BRS Office ",
+      address: "5 Incline Kaman, Jayashankar Bhupalpalli",
+      time: "10:35 AM – 3:00 PM",
+      date: "09-May-2026",
+      mapUrl: "https://maps.app.goo.gl/5ke9bJkKy2QAieBz8",
+    },
+    {
+      title: "Reception",
+      emoji: "💑",
+      venue: "Home",
+      address: "Qr. No. T2-586, Satyanarayana Temple Lane, Thilaknagar Down, Godavarikhani, Dist. Peddapalli.",
+      time: "6:00 PM - 10:00 PM",
+      date: "10-May-2026",
+      mapUrl: "https://maps.app.goo.gl/6wS3AvJeMupV9aKV8",
     },
   ],
   // 🗺 Directions
@@ -60,8 +96,8 @@ export const weddingConfig = {
             type: "car" as const,
             label: "By Car",
             steps: [
-              "Navigate towards Godavarikhani",
-              "Head directly to RR Gardens (NTPC area)",
+              "Navigate towards Jayashankar Bhupalpalli",
+              "BRS Office ,5 Incline Kaman",
               "Use FCI Cross Road as a nearby landmark if needed"
             ],
           },
@@ -69,10 +105,34 @@ export const weddingConfig = {
             type: "bus" as const,
             label: "By Bus",
             steps: [
-              "Take a bus to Godavarikhani / FCI Cross Road",
-              "Get down at FCI Cross Road",
+              "Take a Jayashankar Bhupalpalli",
+              "Jayashankar Bhupalpalli BusStand",
+              "Take a local Auto",
+              "BRS Office ,5 Incline Kaman"
+            ],
+          },
+        ],
+      },
+      "Evening Reception": {
+        mapBase: "https://maps.app.goo.gl/JbqPmNopymt5NWdE7",
+        modes: [
+          {
+            type: "car" as const,
+            label: "By Car",
+            steps: [
+              "Navigate towards Godavarikhani",
+              "Head directly to Home location",
+              "Use ThilakNagar as a nearby landmark if needed"
+            ],
+          },
+          {
+            type: "bus" as const,
+            label: "By Bus",
+            steps: [
+              "Take a bus to Godavarikhani",
+              "Get down at Godhavarikhani Bustand",
               "Take a local auto/Rapido",
-              "Reach RR Gardens (NTPC area)"
+              "Reach Thilaknagar Down Satyanarayana Temple lane"
             ],
           },
           {
@@ -80,39 +140,10 @@ export const weddingConfig = {
             label: "By Train",
             steps: [
               "Take a train to Ramagundam",
-              "Travel towards FCI Cross Road",
+              "Travel towards Godhavarikahni",
               "Take a local auto/Rapido",
-              "Reach RR Gardens (NTPC area)"
+              "Reach Thilaknagar Down Satyanarayana Temple lane"
             ],
-          },
-        ],
-      },
-      "Evening Reception": {
-        mapBase: "https://maps.google.com/?daddr=Grand+Palace+Convention+Centre+Banjara+Hills+Hyderabad",
-        modes: [
-          {
-            type: "car" as const,
-            label: "By Car",
-            steps: ["Take Road No. 12, Banjara Hills", "Follow signs to GVK One Mall", "Venue is 200m past the mall"],
-            duration: "~30 min from city center",
-            distance: "10 km",
-            cost: "₹150-200 (fuel)",
-          },
-          {
-            type: "bus" as const,
-            label: "By Bus",
-            steps: ["Take Bus 127 to Banjara Hills", "Alight at Road No. 12 stop", "Walk 5 min south"],
-            duration: "~50 min",
-            distance: "12 km",
-            cost: "₹30-40",
-          },
-          {
-            type: "train" as const,
-            label: "By Train",
-            steps: ["Take MMTS to Necklace Road", "Auto to Banjara Hills (10 min)"],
-            duration: "~35 min + auto",
-            distance: "8 km",
-            cost: "₹10 + ₹80 auto",
           },
         ],
       },
@@ -123,22 +154,22 @@ export const weddingConfig = {
 
     {
       side: "Bride's Family",
-      names: ["Shri. Mudutanapalli Srinivas", "Smt. Mudutanapalli UmaRani"],
-      address: "Kundanapalli,Ramagundam",
-      phones: ["+91 8106540735", "+91 9676954352"],
+      names: ["Shri. Kampa Ramesh", "Smt. Kampa Rajitha"],
+      address: "Thilaknagar Down,Godavarikhani",
+      phones: ["9010840991","9440693080","9949394796"],
     }, {
       side: "Groom's Family",
-      names: ["Shri.Avula Srinivas", "Smt. Avula Jyothi"],
-      address: "Dongaturthi,Peddapalli",
-      phones: ["+91 9542110809", "+91 8096954621"],
+      names: ["Shri. Kore Krishna", "Smt. Kore Latha"],
+      address: "Jayashankar Bhupalpalli",
+      phones: ["9705194026","9866295002"],
     },
   ],
   // 📱 WhatsApp for Travel Assistance
-  whatsappNumber: "919676054352",
+  whatsappNumber: "9705194026",
   // 🏨 Accommodation
   accommodationMessage: "Accommodation details will be updated soon. Stay tuned!",
   // 🚆 Smart Location destination
-  destinationCity: "Godavarikhani",
+  destinationCity: "Jayashankar Bhupalpalli",
 };
 
 
