@@ -85,7 +85,6 @@
 import { useState } from "react";
 import AnimatedSection from "./AnimatedSection";
 import { weddingConfig } from "@/config/wedding";
-
 const { tabs, routes } = weddingConfig.directions;
 
 const HowToReachSection = () => {

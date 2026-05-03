@@ -90,7 +90,7 @@ export const weddingConfig = {
     tabs: ["Wedding Ceremony","Reception"],
     routes: {
       "Wedding Ceremony": {
-        mapBase: "https://maps.app.goo.gl/JbqPmNopymt5NWdE7",
+        mapBase: "https://maps.app.goo.gl/5ke9bJkKy2QAieBz8",
         modes: [
           {
             type: "car" as const,
@@ -114,7 +114,7 @@ export const weddingConfig = {
         ],
       },
       "Reception": {
-        mapBase: "https://maps.app.goo.gl/JbqPmNopymt5NWdE7",
+        mapBase: "https://maps.app.goo.gl/6wS3AvJeMupV9aKV8",
         modes: [
           {
             type: "car" as const,
