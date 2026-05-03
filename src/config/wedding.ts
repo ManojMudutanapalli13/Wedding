@@ -87,7 +87,7 @@ export const weddingConfig = {
   ],
   // 🗺 Directions
   directions: {
-    tabs: ["Wedding Ceremony"],
+    tabs: ["Wedding Ceremony","Reception"],
     routes: {
       "Wedding Ceremony": {
         mapBase: "https://maps.app.goo.gl/JbqPmNopymt5NWdE7",
@@ -113,7 +113,7 @@ export const weddingConfig = {
           },
         ],
       },
-      "Evening Reception": {
+      "Reception": {
         mapBase: "https://maps.app.goo.gl/JbqPmNopymt5NWdE7",
         modes: [
           {

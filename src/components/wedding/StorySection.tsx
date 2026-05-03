@@ -10,7 +10,7 @@ const StorySection = () => {
   return (
     <section className="px-5 py-10">
       <AnimatedSection>
-        <h2 className="text-center mb-2">A Glimpse of Our Journey</h2>
+        <h2 className="text-center mb-2">Join Us for the Best Day Ever!</h2>
       </AnimatedSection>
 
       <AnimatedSection delay={200}>

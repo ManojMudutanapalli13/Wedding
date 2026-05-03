@@ -90,7 +90,9 @@ const { tabs, routes } = weddingConfig.directions;
 
 const HowToReachSection = () => {
   const [activeTab, setActiveTab] = useState(0);
-  const data = routes[tabs[activeTab] as keyof typeof routes];
+  // const data = routes[tabs[activeTab] as keyof typeof routes];
+  const key = tabs[activeTab].trim();
+const data = routes[key as keyof typeof routes];
 
   return (
     <section className="px-5 py-10">
