@@ -98,7 +98,7 @@ export const weddingConfig = {
             steps: [
               "Navigate towards Jayashankar Bhupalpalli",
               "BRS Office ,5 Incline Kaman",
-              "Use FCI Cross Road as a nearby landmark if needed"
+              "Use 5 Incline Kaman as a nearby landmark if needed"
             ],
           },
           {
@@ -122,7 +122,7 @@ export const weddingConfig = {
             steps: [
               "Navigate towards Godavarikhani",
               "Head directly to Home location",
-              "Use ThilakNagar as a nearby landmark if needed"
+              "Use Thilaknagar Down Satyanarayana Temple as a nearby landmark if needed"
             ],
           },
           {
