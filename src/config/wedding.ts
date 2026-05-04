@@ -7,7 +7,7 @@ export const weddingConfig = {
   },
   // 📅 Wedding Date & Location
   date: new Date("2026-05-10T10:00:00"),
-  displayDate: "Saturday, 10th May 2026",
+  displayDate: "Saturday, 09th May 2026",
   city: "Jayashankar Bhupalpalli",
   // 📅 Calendar Event
   calendar: {
